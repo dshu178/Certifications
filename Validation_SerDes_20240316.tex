@@ -1,0 +1,145 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{black}
+\nopagenumbers{}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage[scale=0.915]{geometry}
+\usepackage{import}
+\usepackage{multicol}
+\usepackage{import}
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb}
+\usepackage{lipsum}
+\usepackage{setspace}
+\name{Dan}{Shu}
+\newcommand*{\customcventry}[7][.13em]{
+\begin{tabular}{@{}l}
+{\bfseries #4} \
+{\itshape #3}
+\end{tabular}
+\hfill
+\begin{tabular}{l@{}}
+{\bfseries #5} \
+{\itshape #2}
+\end{tabular}
+\ifx&#7&%
+\else{\
+\begin{minipage}{\maincolumnwidth}%
+\small#7%
+\end{minipage}}\fi%
+\par\addvspace{#1}}
+\begin{document}
+\makecvtitle
+\vspace*{-16mm}
+\begin{center}\textbf{Highspeed IO Validation Engineer}\end{center}
+\begin{center}
+\begin{tabular}{ c c c }
+\faMobile\enspace +1 4082198739 & \enspace \color{blue} \href{mailto:dshu178@gmail.com}{dshu178@gmail.com} & \faHome\enspace San Jose, CA, USA \\
+\faLinkedin\enspace \color{blue} \href{https://www.linkedin.com/in/danshu/}{in/danshu} &
+\faGithub\enspace \color{blue} \href{https://danzhoushu.github.io/}{danzhoushu.github.io/}
+\end{tabular}
+\end{center}
+
+\section{Profile}
+{10+ years of silicon industry experience building up capability and capacity focusing on delivering results. True innovator with strong industry connections. A passionate linchpin who can quickly connect dots and identify new opportunities.}
+
+\section{Areas of Expertise}
+{Highspeed IO - SerDes - IEEE802.3 Ethernet - PCIe - Optical QSFP/OSFP - OpenZR/ZR+ - OIF - Chiplet - UCIe - BoW - CXL - RF/mmW - IEEE802.11 WiFi - BT - UWB - 5G NRU - Link Budget - RF Front End - Low power - SI/PI/EM simulation - Instrument - ATE - Data Science- Database - Machine Learning}
+
+\section{Professional Experience}
+\customcventry{07/2023 ‐ present}{{\color{blue}\href{https://danzhoushu.github.io/year-archive/}{(Freelance/Consultant)}}}{HighSpeed IO, RF/mmW Architect,}{San Jose, CA}{}{}{}{
+{\begin{itemize}[leftmargin=0.6cm, itemsep=0pt, label={\textbullet}]
+\item Providing consultancy services for chiplet startup company on highspeed I/O.
+\item Working with RF and Si/Pi expertise on SerDes/optical link budget analysis.
+\item Increasing I/O throughput by decreasing RF path loss and using high order modulations.
+\item Offering RF architect consultancy services to Front-End-Module companies. 
+\end{itemize}}}
+
+
+\customcventry{04/2023 ‐ 06/2023}{{\color{blue}\href{https://www.macom.com/}{(Macom)}}}{Principal Application Engineer}{Santa Clara, CA}{}{}{}{
+{\begin{itemize}[leftmargin=0.6cm, itemsep=0pt, label={\textbullet}]
+\item Validated 8 x 112Gbaud PAM4/Coherent TIA and Laser driver.
+\item Invented 112Gbaud PAM4/Coherent TIA process, voltage, temperature (PVT) characterization/validation method using machine learning algorithm.
+\item Led the team to visualize the large validation dataset (100k .S4P files).
+\end{itemize}}}
+
+\customcventry{10/2014 ‐ 03/2023}{{\color{blue}\href{https://www.qualcomm.com/}{(Qualcomm Atheros)}}}{SENIOR STAFF, HWS Architect}{Santa Clara, CA}{}{}{}{
+{\begin{itemize}[leftmargin=0.6cm, itemsep=0pt,label={\textbullet}]
+\item Led the team to finish RF Front End (RFFE) design validation activities.
+    \begin{itemize}[itemsep=0pt]
+    \item Hands-on validated, characterized FEMs for EVM, drooping, Mask, ACP, IIP2/3, NF, power efficiency etc. over process, voltage, and temperature. 
+    \item Conducted line-up simulation analysis over multi-stage Tx/Rx look up tables. Validated simulation results on reference design.
+    \item Successfully simulated, predicted, and validated WiFi7 MLO 5/6G bands co-exist mode Lo spur 2nd order mixer effects caused Rx desense.
+    \item Worked on validating of linear/nonlinear/Doherty PA with DPD, memory DPD, CFR, ET, APT, multi modes PA/LNA for low power FEM designs. 
+    \end{itemize}
+\item Partner with Qualcomm’s different technology teams to validate cutting edge design innovative digital enhancement features to wireless products.
+    \begin{itemize}[itemsep=0pt]
+    \item Validated 11be/WiFi7 CFR waveforms from SoC system to RF front end for compensating various RF impairments.
+    \end{itemize}
+\item Invented mobile SoC dynamic voltage control algorithm for power saving and throughput improvement based on multivariate machine learning models.
+    \begin{itemize}[itemsep=0pt]
+    \item Hands-on collected data in the lab over 1000+ user cases using DoE approach for design wins at major customer’s mobile design.
+    \item Used multivariate machine learning models to calculate the polynomial functions SoC Vmin vs. SoC Process, Tj, and Throughput.
+    \end{itemize}
+\item Worked on validating 4 categories of battery driven mobile system-level low power design.
+    \begin{itemize}[itemsep=0pt]
+    \item Implemented process, voltage, Tj (PVT) vs. throughput relationship validation.
+    \item Validated the SoC circuit timing design such as power collapse, clock gate etc.
+    \item Validated low power features per Day-of-Use (DoU) cases.
+    \item Helped CSMA/CA based low power design approach validation.
+    \end{itemize}    
+\item Maintained the pace of per year learning/creating 2 new things..
+    \begin{itemize}[itemsep=0pt]
+    \item 2023, Built MSSQL database and implemented off-the-shelf DPD solution.
+    \item 2022, Invented FEM drooping characterization method.
+    \item 2021, Invented SoC supply dynamic voltage setting method. 
+    \item 2020, Built low power and thermal characterization tester.
+    \item 2019-18, Built wifi6e/7 FEM validation and characterization tester.
+    \item 2017 and before, led and finished the 11be FTM design validation tester (DVT) solutions and started mission mode performance vs. power validation efforts. 
+    \end{itemize}    
+\end{itemize}}}
+
+\customcventry{03/2013 ‐ 09/2014}{{\color{blue}\href{https://www.broadcom.com/}{(Broadcom)}}}{PRINCIPAL ENGINEER, ATE Architect}{Santa Clara}{}{}{
+{\begin{itemize}[leftmargin=0.6cm, itemsep=0pt, label={\textbullet}]
+\item Solved 10G, 25G Serdes ATE load board PCB design challenges for 144 lanes switch SoC.  
+\item Published data analysis paper “Quantifying Shmoo Results: Brain Storm”.
+\end{itemize}}}
+
+\customcventry{11/2011 ‐ 9/2012}{{\color{blue}\href{https://www.amd.com/en.html}{(AMD Canada)}}}{I/O Consultant}{Markham, ON, Canada}{}{
+{\begin{itemize}[leftmargin=0.6cm, itemsep=0pt, label={\textbullet}]
+\item Solved PCIE Gen3(8G/s) and GDDR5 ATE test challenges for GPU/APU.
+\end{itemize}}}
+
+\customcventry{05/2004 ‐ 11/2011}{{\color{blue}\href{https://www.semtech.com/}{(Semtech/Gennum)}}}{Principal Engineer}{Burlington, ON, Canada}{}{
+{\begin{itemize}[leftmargin=0.6cm, label={\textbullet}]
+\item Led a task force to deliver the 1st generation Thunderbolt cable drivers (CDRs and EQs) project for the Apple Mac Computer.
+\item Simulated TIA oscillation issue by HFSS and provided GSG idea to boost TIA gain from 3kohm to 60kohm.
+\item Built 26.5GHz BW optical domain characterization and validation lab.
+\end{itemize}}}
+
+\section{Education}
+\customcventry{}{\color{blue}\href{http://en.xjtu.edu.cn/}{Xi'an Jiaotong University}}{Bachelor degree in Electronic Engineering}{Xi'an, China}{}{}
+\customcventry{}{\color{blue}\href{https://en.uestc.edu.cn/}{University of Electronic Science and Technology of China}}{Post graduate studies, on-leave}{Chengdu, China}{}{}
+
+\section{Online Courses \& Certifications}
+{\begin{itemize}[label=\textbullet, itemsep=0pt]
+      \item JAVA (2022)
+      \item Regression Models, Johns Hopkins online (2015) - \underline{\color{blue}\href{https://www.coursera.org/account/accomplishments/certificate/678GCXVGHW}{Coursera}}
+      \item Statistical Inference, Johns Hopkins online (2015) - \underline{\color{blue}\href{https://www.coursera.org/account/accomplishments/certificate/4MAV4C4QVK/}{Coursera}}
+      \item Machine Learning, Stanford online  (2014) - \underline{\color{blue}\href{https://github.com/dshu178/Certifications/blob/main/DanShu_Coursera_ml_2014.pdf}{Coursera}}
+    \item Introduction To Databases, Stanford online (2013) - \underline{\color{blue}\href{https://github.com/danzhoushu/danzhoushu.github.io/blob/master/files/dshu178-98279-db--Winter2013-accomplishment.pdf}{Coursera}}
+  \end{itemize}} 
+
+
+\section{Skills}
+{\begin{itemize}[label=\textbullet, itemsep=0pt]
+\item {\textbf{Data Visualization:} Spotfile, JMP, Microsoft Power BI, Excel}
+\item {\textbf{Simulation Software:} Matlab, SystemVue, ADS, HFSS}
+\item {\textbf{Standards} IEEE802.11, IEEE802.3, BT, PCIe, UCIe, BoW, CXL, Ethernet COM}
+\item {\textbf{Program languages:} Python, C++, JAVA, SQL, Linux scripts}
+\item {\textbf{Instruments:} VNA, VGA, VSA, AWG, BERT, Real/Sampler Scope, LCA, LCR meter, current profile, source meter, Optical tester, ATE V93K}
+\end{itemize}}
+
+\end{document}
